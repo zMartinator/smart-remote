@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /*background-color: #3B3C3F;*/
 }
 
 .App-logo {
@@ -18,6 +19,87 @@
   font-size: large;
 }
 
+.btn:focus {
+  outline: 0;
+}
+
+.circle{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+
+.circle-sm{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+
+}
+
+.mute{
+  font-size: 20px;
+}
+.last-channel{
+  font-size: 20px;
+}
+.power{
+  font-size: 30px;
+}
+
+.inputs{
+  font-size: 20px;
+}
+
+.enter{
+  font-size: 30px;
+}
+
+.circle-md{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.change{
+  margin-top: 10px;
+}
+
+.inputss{
+  margin-top: 35px;
+}
+.inputss:hover{
+  margin-top: 35px;
+}
+.square{
+  height: 75px;
+  width: 100px;
+  border-radius: 10%;
+  font-size: 25px;
+}
+
+.square-sm{
+  height: 75px;
+  width: 75px;
+  border-radius: 10%;
+  font-size: 25px;
+}
+/*.inputss:active{
+  margin-top: 45px;
+}*/
+/*.inputss:visited{
+  margin-top: 45px;
+}*/
+
+.btn:active:focus{
+  outline: 0;
+}
+
+#container{
+  text-align:center;
+}
+.zach {
+  width: 100px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
