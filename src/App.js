@@ -8,278 +8,278 @@ import './App.css';
 
 const onOnClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/power/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('ON 🔥');
+  // console.log('ON 🔥');
 }
 
 const onVolumeUpClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/vUp/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('UP 🔥');
+  // console.log('UP 🔥');
 }
 
 const onVolumeDownClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/vDown/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('DOWN 🔥');
+  // console.log('DOWN 🔥');
 }
 
 const onMuteClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/mute/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('MUTE 🔥');
+  // console.log('MUTE 🔥');
 }
 
 const onChannelUpClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/cUp/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('DOWN 🔥');
+  // console.log('DOWN 🔥');
 }
 
 const onChannelDownClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/cDown/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('DOWN 🔥');
+  // console.log('DOWN 🔥');
 }
 
 // UP
 const onUpClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/up/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('UPUP 🔥');
+  // console.log('UPUP 🔥');
 }
 // RIGHT
 const onRightClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/right/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('RIGHT 🔥');
+  // console.log('RIGHT 🔥');
 }
 // DOWN
 const onDownClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/down/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('DOWNDOWN 🔥');
+  // console.log('DOWNDOWN 🔥');
 }
 // LEFT
 const onLeftClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/left/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('LEFT 🔥');
+  // console.log('LEFT 🔥');
 }
 // ENTER
 const onEnterClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/enter/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('ENTER 🔥');
+  // console.log('ENTER 🔥');
 }
 // MENU
 const onMenuClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/menu/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('MENU 🔥');
+  // console.log('MENU 🔥');
 }
 // INPUT
 const onInputClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/input/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('INPUT 🔥');
+  // console.log('INPUT 🔥');
 }
 // EXIT
 const onExitClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/exit/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('EXIT 🔥');
+  // console.log('EXIT 🔥');
 }
 // LAST
 const onLastClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/last/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('LAST 🔥');
+  // console.log('LAST 🔥');
 }
 // 1
 const onOneClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/one/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('ONE 🔥');
+  // console.log('ONE 🔥');
 }
 // 2
 const onTwoClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/two/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('TWO 🔥');
+  // console.log('TWO 🔥');
 }
 // 3
 const onThreeClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/three/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('THREE 🔥');
+  // console.log('THREE 🔥');
 }
 // 4
 const onFourClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/four/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('FOUR 🔥');
+  // console.log('FOUR 🔥');
 }
 // 5
 const onFiveClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/five/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('FIVE 🔥');
+  // console.log('FIVE 🔥');
 }
 // 6
 const onSixClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/six/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('SIX 🔥');
+  // console.log('SIX 🔥');
 }
 // 7
 const onSevenClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/seven/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('SEVEN 🔥');
+  // console.log('SEVEN 🔥');
 }
 // 8
 const onEightClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/eight/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('EIGHT 🔥');
+  // console.log('EIGHT 🔥');
 }
 // 9
 const onNineClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/nine/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('NINE 🔥');
+  // console.log('NINE 🔥');
 }
 // 0
 const onZeroClick = function() {
   var manufacturerInput = document.getElementById('manufacturer').value;
-  console.log(manufacturerInput);
+  // console.log(manufacturerInput);
   axios.post('/api/arduino/zero/' + manufacturerInput).then( function(res) {
     console.log(res);
   }).catch( function(err) {
     console.log('ERROR: ', err);
   });
-  console.log('ZERO 🔥');
+  // console.log('ZERO 🔥');
 }
 
 
