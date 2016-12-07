@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  /*background-color: #3B3C3F;*/
+  background-color: #3B3C3F;
 }
 
 .App-logo {
@@ -15,8 +15,24 @@
   color: white;
 }
 
+/*.test{
+  color: white;
+  background-color: #5E5757;
+  border-color: #504848;
+}*/
+
+/*.test2{
+  color: #897A7A;
+  background-color: #897A7A;
+
+}*/
+
 .App-intro {
   font-size: large;
+}
+
+.optgroup{
+  font-size: 36px;
 }
 
 .btn:focus {
@@ -33,7 +49,12 @@
   height: 75px;
   width: 75px;
   border-radius: 50%;
+}
 
+.remote-header{
+  color:black;
+  background-color: black;
+  border: 1px solid black;
 }
 
 .mute{
@@ -58,7 +79,46 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
+
 }
+
+.circle-norm{
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+
+/*.square:active:hover{
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}*/
+
+/*.square:hover{
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+
+.square:visited{
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+
+.square:active {
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}*/
+
+/*.square:target{
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}*/
+
+
 
 .change{
   margin-top: 10px;
@@ -75,13 +135,20 @@
   width: 100px;
   border-radius: 10%;
   font-size: 25px;
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
 }
+
 
 .square-sm{
   height: 75px;
   width: 75px;
   border-radius: 10%;
   font-size: 25px;
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
 }
 /*.inputss:active{
   margin-top: 45px;
@@ -89,6 +156,60 @@
 /*.inputss:visited{
   margin-top: 45px;
 }*/
+/* What the f is happening*/
+.grey-button {
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+.grey-button:focus,
+.grey-button.focus {
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+.grey-button:hover {
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+.grey-button:active,
+.grey-button.active,
+.open > .dropdown-toggle.grey-button {
+  color: white;
+  background-color: #888888;
+  border-color: #636363;
+}
+.grey-button:active:hover,
+.grey-button.active:hover,
+.open > .dropdown-toggle.grey-button:hover,
+.grey-button:active:focus,
+.grey-button.active:focus,
+.open > .dropdown-toggle.grey-button:focus,
+.grey-button:active.focus,
+.grey-button.active.focus,
+.open > .dropdown-toggle.grey-button.focus {
+  color: white;
+  background-color: #5a5a5a;
+  border-color: #4c4b4b;
+}
+.grey-button:active,
+.grey-button.active,
+.open > .dropdown-togglesquare {
+  background-image: none;
+}
+.grey-button.disabled:hover,
+.grey-button[disabled]:hover,
+fieldset[disabled] .grey-button:hover,
+.grey-button.disabled:focus,
+.grey-button[disabled]:focus,
+fieldset[disabled] .grey-button:focus,
+.grey-button.disabled.focus,
+.grey-button[disabled].focus,
+fieldset[disabled] .grey-button.focus {
+  background-color: #888888;
+  border-color: #636363;
+}
 
 .btn:active:focus{
   outline: 0;
@@ -96,11 +217,4 @@
 
 #container{
   text-align:center;
-}
-.zach {
-  width: 100px;
-}
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
